@@ -1,0 +1,77 @@
+Machine Learning ToolBox - Data Sets
+Author: David Nascimento Coelho
+Last Update: 2017/04/30
+
+------------GENERAL DATA-----------------
+
+UCI
+http://archive.ics.uci.edu/
+
+---------CLASSIFICATION DATA-------------
+
+BOXES
+- attributes: 36
+- classes: 3 (small, medium, large)
+- samples: 168 (first 18 for training, 150 remaining for test)
+
+DERMATOLOGY (http://archive.ics.uci.edu/ml/datasets/Dermatology)
+- classes: 6
+- attributes: 34
+- samples: 366 (358 complete and 8 missing some attributes) 
+
+FACES (YALE - http://www.4shared.com/zip/Gadv_mis/YALE-A.html)
+- classes: 15 (person)
+- attributes: ???
+- samples: 165 (11 for each pearson)
+
+FOUR GROUPS
+- classes: 4
+- attributes: 2
+- samples: 620
+
+IMAGES
+- each image is a sample
+- field, lena, masters, pie, sky.
+
+IRIS 
+- classes: 3
+- attributes: 4
+- samples: 150
+
+MOTOR FAILURE
+- classes: 7 (depends on choice)
+- attributes: 6
+- samples: 294
+
+MOTOR FILTERED
+- classes: 7 (depends on choice)
+- attributes: 6
+- samples: 294 (depends on choice
+
+RANDOM DATA
+- classes: 3
+- attributes: 2
+- samples: 294
+
+SPINE
+- classes: 3
+- attributes: 6
+- samples: 310 (60 / 150 / 100)
+
+TWO MOONS
+- classes: 2
+- attributes: 2
+- samples: 1001
+
+WINE (http://archive.ics.uci.edu/ml/datasets/Wine)
+- classes: 3
+- attributes: 13
+- samples: 178
+
+-----------REGRESSION DATA---------------
+
+WIND TURBINE
+- input: turbine's speed
+- output: electric power
+
+----------------END----------------------

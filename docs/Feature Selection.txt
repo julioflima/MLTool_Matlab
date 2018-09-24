@@ -1,0 +1,23 @@
+Machine Learning ToolBox - Feature Selection Functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+-> Algorithms
+
+PCA 		principal components analysis
+
+Análise de correlação (descorrelaciona os dados, aplicando uma mudança de base).
+Verifica quais componentes são relevantes através da medição da variância
+
+ICA 		independent components analysis
+		http://www02.lps.ufrj.br/~ica/
+Não verifica as componentes que mais variam, porém as que mais são independentes.
+Independência estatística. Mede a independência dos dados: 
+
+NMF 		non-negative matrix factorization
+		http://www02.lps.ufrj.br/~bss.nmf/
+
+ITL		Information-theoretic Learning (entropy)
+		Response, output => predictor, input
+
+get_harmonic	select harmonics after an FFT was taken

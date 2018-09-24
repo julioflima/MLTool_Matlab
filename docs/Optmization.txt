@@ -1,0 +1,31 @@
+Machine Learning ToolBox - Optimization Functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+Stochastic Optimization
+
+-> Evolutionary Computation 
+
+- GA		Genetical Algorithms
+- DE		Diferential Evolution
+
+-> Swarm Intelligence
+
+- PSO 		Particle Swarm Optimization
+- AS 		Ants System
+- SACO 		Simple ant colony optimization
+- BCO 		Bee Colony Optimization
+
+-> Combinatory
+
+- ACO		Ant Colony Optimization
+- TS		Tabu Search
+- GA		Genetical Algorithms
+- HC		Hill Climbing 
+
+-> Continous
+
+- SA		Simulated Annealing
+- PSO		Particle Swarm Optimization
+- DE		Diferential Evolution
+- GA		Genetical Algorithms

@@ -1,0 +1,44 @@
+Machine Learning ToolBox - Feature Extraction functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+------------------- Time Domain Functions
+
+http://www.coe.ufrj.br/~kleber/Transformadas.pdf
+
+Park Transform		Eixos ortogonais "d" e "q" (transformada dq)
+			Espectro de potências instantâneas de Park
+
+Clarke Transform	Eixos ortogonais "alfa" e "beta” (transformada alfa-beta)
+
+High Order Statistics	Mean / Variance / Skewness / Kurtosis
+			Através do Barramento CC (cc bus)
+
+Load Level		Através das correntes nas bobinas do freio de foucault
+
+------------------- Frequence Domain Functions
+
+MCSA			Motor Current Signature Analysis
+
+FFT			Fast Fourier Transform
+
+Wavelets Transform	Janelas dos Sinais
+			(Haar's)
+
+Welch Method		Power Spectrum Estimator
+
+PSD			Power Spectrum Density
+
+Harmonics Correlation	Razão entre harmômincas como entrada dos classificadores
+
+------------------- Implemented Functions
+
+FFT_1
+
+- Usa a função para procurar a próxima potência de 2.
+-  Além disso, usa a linspace e o módulo
+
+FFT_2
+
+- Usa diretamente a FFT
+- Pega o módulo de cada frequência

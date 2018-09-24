@@ -1,0 +1,9 @@
+Machine Learning ToolBox - General Scripts
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+-> MATLAB's Cell and Structs internal functions
+
+- cell2mat
+- mat2cell
+- num2cell

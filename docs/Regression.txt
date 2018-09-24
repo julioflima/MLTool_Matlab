@@ -1,0 +1,12 @@
+Machine Learning ToolBox - Regression Functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+M-estimators	Parameter Estimation Framework (Robust Regression)
+		https://en.wikipedia.org/wiki/M-estimator
+
+-> Regression Functions
+
+- Ex: MLP
+- regression:	mlp_regress
+- validation:	mlp_valid

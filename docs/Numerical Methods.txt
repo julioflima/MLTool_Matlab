@@ -1,0 +1,12 @@
+Machine Learning ToolBox - Numerical Methods Functions
+Author: David Nascimento Coelho
+Last Update: 2016/09/16
+
+Bubble Sort	Organize data in ascending or descending order
+
+LMA		Levemberg Marqardt Alrogithm. Used to solve non-linear least squares problems
+
+DLS		Damped Least-Squares (same as LMA)
+
+Newton-Raphson	Used to aproximate roots of "f(x) = 0" functions
+

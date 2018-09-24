@@ -1,0 +1,171 @@
+-------------------- TO DO (adjust) -------------------- 
+
+- data_class_loading()
+  - add faces dataset
+  - add images dataset
+
+- data_motor_gen()
+  - adjust ordinal classification (9 to 12)
+
+- data_motor_filt_gen()
+  - verificar com diego diferença entre bancos de dados
+
+- prototypes_init()
+  - method 3 for 2D algorithms
+
+- hold_out()
+  - verify way to shuffle all fields of DATA structure
+
+- reject_opt()
+- reject_opt2()
+  - adjust for new patterns
+
+----------------- TO DO (new functions) ---------------- 
+
+-----> general
+
+- hold_results()	- function to hold folds and results of tests
+
+- acerto = accuracy	- deve estar na função "statistics"
+- theory		- adicionar ao final de todos os algoritmos
+- Video Structure	- .vid (prototype based algorithms)
+- correlação ~= causa	- ter cuidado com análise de dados!
+
+-----> Classifiers
+
+- implement decision boundaries "painting video" for classifiers
+
+- adaline_train()	- verify default hyperparameters
+- adaline_classify()	- similar to other decision-boundary-based classifiers 
+
+- klvq_train()		- verify default hyperparameters
+- klvq_cluster()	- verify labels initialization
+- klvq_classify()	- similar to other prototype-based classifiers
+
+- klvq_ps_train()	- verify default hyperparameters
+- klvq_ps_cluster()	- verify labels initialization
+- klvq_ps_classify()	- similar to other prototype-based classifiers
+
+- rks_train()		- verify default hyperparameters (random kitchen sinks)
+- rks_classify()	- 
+
+- rvfl_train()		- verify default hyperparameters (Random Vector Functional Link)
+- rvfl_classify()	- 
+
+- ng_train()		- verify default hyperparameters (Neural-Gas)
+- ng_classify()		- similar to other prototype-based classifiers
+
+- art_train()		- verify default hyperparameters (adaptive resonance theory)
+- art_classify()	- similar to other prototype-based classifiers
+
+- artmap_train()	- verify default hyperparameters
+- artmap_classify()	- similar to other prototype-based classifiers
+
+- gp_train()		- verify default hyperparameters (gaussian process)
+- gp_classify()		- similar to other decision-boundary-based classifiers 
+
+- anfis_train()		- verify default hyperparameters 
+- anfis_classify()	- fuzzy based classifier (artificial neural fuzzy inference system)
+
+- svm_mult_train()	- verify default hyperparameters
+- svm_mult_classify()	- svm for multiclass problems
+
+- lssvm_mult_train()	- verify default hyperparameters
+- lssvm_mult_classify() - lssvm for multiclass problems
+
+- mog_train()		- verify default hyperparameters (mixture of gaussians)
+- mog_cluster()		- verify measure of covariance and mean
+- mog_classify()	- includes covariance at prototype-based classifiers
+
+- deep_train()		- MLP com várias camadas
+- deep_classify()	- similar to other decision-boundary-based classifiers
+- deep_f_rec_bp()	- recursive back-propagation for more than 2 layers
+- deep_f_weights()	- initialize weights for the hidden layer neurons
+
+-----> Samples
+
+- cluster_unit_test()
+- cluster_all_test()
+
+- cluster_stats_1turn()
+- cluster_stats_nturns()
+
+- class_all_test()
+
+- class_stats_1turn()
+- class_stats_nturns()
+
+- regress_unit_test()
+- regress_all_test()
+
+- regress_stats_1turn()
+- regress_stats_nturns()
+
+- optim_unit_test()
+- optim_all_test()
+
+- optm_stats_1turn()
+- optm_stats_nturns()
+
+-----> Optimization 
+
+- aco_optm()
+- bco_optm()
+- de_optm()
+- ga_optm()
+- hc_optm()
+- pso_optm()
+- sa_optm()
+- ts_optm()
+
+-----> Numerical Methods
+
+- lm_alg()		- levenberg-marquardt algorithm (verify fsolve)
+- lu_fac()		- LU factorization (verify lu)
+- qr_fac()		- QR factorization (verify qr)
+- svd_alg()		- Singular value decomposition (verify svd)
+
+- lms()			- least mean squares
+- rls()			- recursive least squares
+
+-----> Feature extraction
+
+- ar_par()		- parametros do modelo ar
+- ica()         	- independent components analysis
+- pca()			- principal components analysis
+- psd()			- power spectral density (welch method)
+
+-----> User Interface
+
+- gui_main()
+- First Screen: choose problem: clustering, regression, optmization, classification
+- Second Screen: algorithm, data set, advanced options, attributes displayed
+
+-------------------- DONE -------------------- 
+
+- normalize()
+- labels_adjust()
+
+- class_unit_test()
+- class_all_test()
+
+- gaussian / bayes (train, classify)		- 
+- ols (train, classify)				- 
+- ps (train, classify)				- Fisher Discriminant? Adaline?
+- elm (train, classify)				- 
+- mlp (train, classify)				- 
+- rbf (train, classify)				- 
+- svm (train, classify)				- Verificar "quadprog"
+- lssvm (train, classify)			- Verificar "linprog"
+- mlm (train, classify)				- Verificar "fsolve"
+- knn (train, classify)				- 
+- kmeans (train, cluster, label, classify)	- 
+- wta (train, cluster, label, classify)		- 
+- lvq (train, cluster, classify)		- 
+- som1d (train, cluster, label, classify)	- 
+- som2d (train, cluster, label, classify)	- 
+- ksom_gd (train, cluster, label, classify)	- 
+- ksom_ef (train, cluster, label, classify)	- 
+- ksom_ps (train, cluster, label, classify)	- Fazer lista tabu (melhorar entropia)
+
+-------------------- -------------------- 

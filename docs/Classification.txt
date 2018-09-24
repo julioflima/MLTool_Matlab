@@ -1,0 +1,120 @@
+Machine Learning ToolBox - Classification Functions
+Author: David Nascimento Coelho
+Last Update: 2016/01/18
+
+-> Classifiers General Function Syntax
+
+[PAR_OUT] = train[DATA,PAR]
+[OUT] = class[DATA,PAR_OUT]
+
+- OUT, DATA and PAR are structs
+
+- DATA.input = weight's matrix [pxN]
+- DATA.output = label's matrix [cxN] 
+- PAR = hyperparameters
+- PAR_OUT (training) = updated hyperparameters
+- OUT (test) = confusion matrix + accuracy rate (test)
+
+-> Classifiers Functions
+
+- Ex: MLP
+- Training:	mlp_train
+- Test:		mlp_class
+
+-> Classifiers List
+
+OLS			Ordinary Least Squares (mínimos quadrados)
+
+Gaussian		Bayes Net / Naive Bayes (NB)
+
+EMD			Euclidean minimal distance (Bayes/Gaussiano Linear)
+
+MMD			Mahalanobis minimal distance (Bayes/Gaussiano Quadratic)
+
+PS			Perceptron Simples
+
+Adaline			Neuron output a little bit different from PS
+
+MLP			Multi-layer Perceptron
+
+ELM			Extreme learning machine
+
+ESN			Echo state Network
+
+LSM			Liquid state machine
+
+SVM			Support Vector Machine
+
+LSSVM			Least Squares SVM
+
+MLM			Minimal Learning Machine
+
+GP			Gaussian Process
+
+WTA			Winner Takes-All
+
+SOM			Self-organizing Maps
+
+RBF(N)			Radial Basis Function (Network)
+
+LVQ			Learning Vector Quantization
+
+FS			Fuzzy System
+
+ANFIS			Adaptive neuro fuzzy inference system
+
+ART			Adaptive Resonance Theory
+
+ARTMAP			ART supervisionada (aprendizagem competitiva)
+
+Fuzzy ART		ART não supervisionada
+
+Fuzzy ARTMAP		ART supervisionada (aprendizagem competitiva)
+
+RF			Random Forests
+
+OPF			Optimum path forests
+
+LLM			Linear Local Methods
+
+Local & Global		Global Clusters + Local experts (models)
+
+KNN			K-Nearest Neighbors
+
+IBK			Instance Based K
+
+C4.5			Generate Decision Tree
+J48			implementation of C4.5 at Weka tool
+
+RSM			Response Surface Methodology
+			https://en.wikipedia.org/wiki/Response_surface_methodology
+
+OLAM			Optimal Linear Associative Memory
+
+OLAM Extension		Robust to labeling errors (outliers)
+
+-> Classification Methods
+
+Ensembles
+	Comitês / Experts group / more than one classifier -> just one answer
+	Can be from the same type or from different types of classifiers
+
+- EL			Ensemble Learning
+
+- ARTIE			ART in Ensembles
+
+- MUSCLE		Multiple SOM Clustering Ensemble
+
+Robust Classifiers
+	Better performance with outliers
+
+Multilabel Classification
+	overlapped neurons
+	more than one weight vector associated to one neuron
+	each neuron contains more than one label
+	
+Semi-supervised Learning
+	https://en.wikipedia.org/wiki/Semi-supervised_learning
+
+Classification hierarchy
+	Classify between groups, than classify between subgroups

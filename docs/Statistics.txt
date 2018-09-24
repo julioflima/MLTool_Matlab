@@ -1,0 +1,37 @@
+Machine Learning ToolBox - Statistics Functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+-> Implemented
+
+- Mcc			Matthews Correlation Coefficient
+- McNemar		Mc Nemar Test
+- CoefVar       Coefficiente of Variation
+
+-> Distributions
+
+http://blog.cloudera.com/blog/2015/12/common-probability-distributions-the-data-scientists-crib-sheet/?utm_content=buffer49e9f&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
+-> Classifiers Avaliation
+
+http://www.cin.ufpe.br/~fatc/AM/Avalicacao-Classificadores.pdf
+
+-> Statistics Tests (others)
+
+https://marcoarmello.wordpress.com/2012/05/17/qualteste/
+http://www.ats.ucla.edu/stat/mult_pkg/whatstat/
+http://www.ats.ucla.edu/stat/stata/whatstat/whatstat.htm
+http://bama.ua.edu/~jleeper/627/choosestat.html
+
+- Anova             	analysis of variance
+- Indice AIC		?
+- f0 Estatístico	Análise de Variâncias
+- t0 Estatístico	Análise de Variâncias
+- Wilcoxon Test		Avaliar melhor classificador
+- “T” Test          	Avaliar melhor classificador
+- “T” Paired Test	Avaliar melhor classificador
+- Kappa Statistic	Avaliar melhor classificador
+- RMSE              	(Root Mean Squared Error)
+- Friedman Test		Avaliar melhor classificador
+- Coeficientes de determinação múltipla
+- Coeficiente de variação

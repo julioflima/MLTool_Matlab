@@ -1,0 +1,14 @@
+Machine Learning ToolBox - Filters
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+Passives	PA / PB / PF / RF
+
+Wiener		Filtro Ótimo
+
+RLS		Recursive Least Squares	(filtro - algoritmo recursivo)	
+
+LMS		Least Mean Squares (filtro - algoritmo recursivo)	
+
+KF		Kalman Filter (filtro - algoritmo recursivo)
+

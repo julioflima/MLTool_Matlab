@@ -1,0 +1,21 @@
+Machine Learning ToolBox - Clustering Functions
+Author: David Nascimento Coelho
+Last Update: 2015/12/20
+
+-> Main Reference
+
+- Computational Intelligence Book (Pg. 584)
+
+-> Functions
+
+- prototypes_init	Initialize prototypes for clustering algorithms
+
+-> Algorithms
+
+- K-means		Classic Algorithm for clustering
+- ACDE			Automatic Clustering DE
+- LVQDE			LVQ + DE for clustering
+- SenseClusters		Adaptation of K-means
+
+-> Validation Index
+
